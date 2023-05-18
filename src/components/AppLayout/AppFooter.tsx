@@ -128,6 +128,12 @@ export function AppFooter() {
           <Button component="a" href="https://status.civitai.com" {...buttonProps} target="_blank">
             Status
           </Button>
+          <Button component="a" href="http://beian.miit.gov.cn/" {...buttonProps} target="_blank">
+            青ICP备2023000266号
+          </Button>
+          <Button component="a" {...buttonProps} target="_blank">
+            联系方式: contact@mikomiko.cc
+          </Button>
         </Group>
         <Group ml="auto" spacing={0} sx={{ flexWrap: 'nowrap' }}>
           <Button component="a" href="/canny/bugs" {...buttonProps} target="_blank">
