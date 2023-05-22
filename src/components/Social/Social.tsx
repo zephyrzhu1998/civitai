@@ -22,12 +22,12 @@ type SocialProps = Partial<
 
 export const socialItems: SocialProps = {
   discord: {
-    label: 'Discord',
+    label: '手机号登陆',
     Icon: IconBrandDiscord,
     Button: DiscordButton,
   },
   github: {
-    label: 'GitHub',
+    label: '微信登陆',
     Icon: IconBrandGithub,
     Button: GitHubButton,
   },
