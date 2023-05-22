@@ -129,10 +129,10 @@ export function AppFooter() {
             Status
           </Button>
           <Button component="a" href="http://beian.miit.gov.cn/" {...buttonProps} target="_blank">
-            青ICP备2023000266号
+            青ICP备xxxx号
           </Button>
           <Button component="a" {...buttonProps} target="_blank">
-            联系方式: contact@mikomiko.cc
+            联系方式: 
           </Button>
         </Group>
         <Group ml="auto" spacing={0} sx={{ flexWrap: 'nowrap' }}>
