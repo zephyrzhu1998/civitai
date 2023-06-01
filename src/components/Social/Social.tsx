@@ -27,7 +27,7 @@ export const socialItems: SocialProps = {
     Button: DiscordButton,
   },
   github: {
-    label: '微信登陆',
+    label: '微信',
     Icon: IconBrandGithub,
     Button: GitHubButton,
   },

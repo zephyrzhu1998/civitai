@@ -5,6 +5,7 @@ import { BuiltInProviderType } from 'next-auth/providers';
 import { getCsrfToken, getProviders, signIn } from 'next-auth/react';
 import { useRouter } from 'next/router';
 import { EmailLogin } from '~/components/EmailLogin/EmailLogin';
+import { MobilephoneLogin } from '~/components/MobilephoneLogin/MobilephoneLogin';
 import { SignInError } from '~/components/SignInError/SignInError';
 import { SocialButton } from '~/components/Social/SocialButton';
 
@@ -54,6 +55,7 @@ export default function Login({ providers }: Props) {
                     );
                   })
               : null}
+            <MobilephoneLogin />
             <Divider label="Or" labelPosition="center" />
             <EmailLogin />
           </Stack>
